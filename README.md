@@ -1,46 +1,68 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="sxnistxr — Tools for images. Frameworks for the web." width="100%">
-</picture>
+<img src="assets/header.png" alt="sxnistxr. A personal dev lab. Tools for images, frameworks for the web." width="100%">
 
-I build tools I want to use, from image comparison workspaces to a React framework for Bun.
+### Hey, I'm sxnistxr.
 
-[Dev lab](https://dihlabs.lol) · [Documentation](https://dihlabs.lol/docs) · [Repositories](https://github.com/sxnistxr?tab=repositories)
+I build things I want to use. Here you'll find image tools, web experiments,
+and **OPTZ**, the React framework for Bun behind my dev lab.
+
+[Visit the lab](https://dihlabs.lol) &nbsp; / &nbsp; [Read the docs](https://dihlabs.lol/docs) &nbsp; / &nbsp; [Explore my repos](https://github.com/sxnistxr?tab=repositories)
+
+**My toolkit** &nbsp; <code>TypeScript</code> <code>React</code> <code>Bun</code> <code>Rust</code>
+
+<br>
 
 ## Compare
 
-**An image comparison workspace for SDXL experiments.** Arrange images, inspect generation settings, and export a labeled comparison sheet.
+**A better view of your image experiments.**
 
-<a href="https://compare-tool-xi.vercel.app">
-  <img src="assets/compare-tool.png" alt="Compare image comparison workspace with layout, label, and export controls" width="100%">
-</a>
+<a href="https://compare-tool-xi.vercel.app"><img src="assets/compare-preview.png" alt="Compare live app with four sample landscapes arranged in a labeled grid and layout controls in the sidebar" width="100%"></a>
 
-- Drop or paste images into Grid, Masonry, Framed, Film, or Row layouts.
-- Read prompts, seeds, steps, CFG, samplers, and models from A1111 / Forge and ComfyUI PNG metadata.
-- Add editable labels and XY grid headers; save a look as a preset.
-- Export PNG, JPG, or WebP at 2048 px, 4096 px, or full size.
+Put SDXL outputs side by side, inspect their generation settings, and export
+a comparison sheet. Made for the details you miss switching between tabs.
 
-**Built with:** TypeScript, Next.js, React, Tailwind CSS.
+[Open Compare](https://compare-tool-xi.vercel.app) &nbsp; / &nbsp; [View source](https://github.com/sxnistxr/compare-tool)
 
-[Try Compare](https://compare-tool-xi.vercel.app) · [Source code](https://github.com/sxnistxr/compare-tool)
+<details>
+<summary>Inside the tool</summary>
+
+- Five layouts: Grid, Masonry, Framed, Film, and Row.
+- Prompts, seeds, steps, CFG, samplers, and models from A1111 / Forge and ComfyUI PNGs.
+- Editable labels, XY grid headers, and reusable presets.
+- PNG, JPG, or WebP export at 2048 px, 4096 px, or full size.
+
+Built with **TypeScript, Next.js, React, and Tailwind CSS**.
+
+*Preview uses sample landscape illustrations.*
+
+</details>
+
+<br>
 
 ## OPTZ
 
-**A React framework for Bun, powering my dev lab.** Server-rendered pages with interactive islands, typed routes and APIs, caching, and middleware.
+**HTML first. Interaction where it belongs.**
 
-<a href="https://dihlabs.lol/optz">
-  <img src="assets/optz.png" alt="OPTZ framework page on dihlabs.lol" width="100%">
-</a>
+<a href="https://dihlabs.lol/optz"><img src="assets/optz-preview.png" alt="OPTZ live framework page: Blink. It's served. The React framework for Bun, with links to get started and read the documentation" width="100%"></a>
 
-- Hydrate interactive islands while keeping the rest of the page server-rendered.
-- Build with file-based routes, typed APIs, and framework caching.
-- Start from examples covering full-stack apps and framework features.
-- Explore the dev lab, documentation, Rust engine, and benchmark sources in one workspace.
+A React framework for Bun with server-rendered pages, interactive islands,
+typed routes and APIs, caching, and middleware. It's what runs my lab.
 
-**Built with:** TypeScript, React, Bun, Rust.
+[Explore OPTZ](https://dihlabs.lol/optz) &nbsp; / &nbsp; [View source](https://github.com/sxnistxr/OPTZ) &nbsp; / &nbsp; [Documentation](https://dihlabs.lol/docs)
 
-[Explore OPTZ](https://dihlabs.lol/optz) · [Read the docs](https://dihlabs.lol/docs) · [Source code](https://github.com/sxnistxr/OPTZ)
+<details>
+<summary>Inside the framework</summary>
+
+- File-based routes, layouts, and typed APIs.
+- Hydration for components marked as interactive islands.
+- Full-stack starter and examples covering framework features.
+- A workspace with the dev lab, Rust engine, benchmark sources, and deployment tooling.
+
+Built with **TypeScript, React, Bun, and Rust**.
+
+</details>
+
+<br>
 
 ---
 
-Find the experiments, implementation details, and tradeoffs in the repositories above.
+More experiments, notes, and things in progress at **[dihlabs.lol](https://dihlabs.lol)**.
