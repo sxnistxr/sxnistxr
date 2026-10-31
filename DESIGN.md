@@ -17,22 +17,14 @@ Typography: Noto Sans, with a heavy, tightly spaced name and regular body copy. 
 
 ## Layout
 
-Left-aligned introduction followed by vertically stacked, clickable project previews, short descriptions, and optional technical details. Retain native text and links for accessibility and mobile reading.
+Left-aligned cat banner, introduction, linked technology badges, text-only project summaries with expandable details, then GitHub stats and streak cards. Retain native text and links for accessibility and mobile reading.
 
-    [ sxnistxr / personal dev lab          cat portrait ]
-    [ introduction + website/docs navigation          ]
-    [ TypeScript / React / Bun / Rust                  ]
-    [ Compare preview                                 ]
-    [ description + live/source links + details        ]
-    [ OPTZ preview                                    ]
-    [ description + live/source/docs + details         ]
+## Current choices
 
-## Critique before implementation
+The banner uses the supplied avatar and reads “dev car :3”. The introductory label and bottom accent line were removed at the user's request. Rounded banner corners are transparent (`omitBackground: true` in the renderer), so they work against GitHub's light and dark backgrounds. Project screenshots and preview frames were removed.
 
-The initial blue banner and generic image/code tiles could belong to any developer. Replaced them with the user's actual avatar and its red/black identity. A black/red palette is justified here by the reference image. Keep the rest quiet: no visitor counters, invented stats, generic animated typing, badge wall, or repetitive decorative headings. Preview frames use each project's visual character: a light image workspace and a dark framework page.
+The toolkit uses Shields badges. The GitHub section uses GitHub Stats Extended (the maintained successor linked by GitHub Readme Stats) and GitHub Readme Streak Stats, both discovered through https://github.com/dhyeythumar/awesome-readme-tools. Cards use square corners, ink backgrounds, readable ash text, and red accents in both GitHub themes. Third-party cards update independently and require no stored credentials.
 
-Hero and preview images are composed as HTML/CSS with unchanged source images, then exported as PNG. Keep original screenshots, avatar, and generator so the assets are reproducible. GitHub strips custom layout CSS, so the README uses only supported Markdown/HTML.
+## Rebuild the banner
 
-## Rebuild the images
-
-Run `bun install`, `bunx playwright install chromium`, then `bun run assets` from this repository. Set `CHROMIUM_EXECUTABLE` to use an existing Chromium installation. Replace the original screenshots in `assets/` before rebuilding to refresh the previews.
+Run `bun install`, `bunx playwright install chromium`, then `bun run assets` from this repository. Set `CHROMIUM_EXECUTABLE` to use an existing Chromium installation. The original avatar is kept unchanged in `assets/avatar.png`. The banner is composed in HTML/CSS and exported as PNG.

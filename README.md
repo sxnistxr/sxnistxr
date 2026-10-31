@@ -1,4 +1,4 @@
-<img src="assets/header.png" alt="sxnistxr. A personal dev lab. Tools for images, frameworks for the web." width="100%">
+<img src="assets/header.png" alt="dev car :3. Tools for images. Frameworks for the web." width="100%">
 
 ### Hey, I'm sxnistxr.
 
@@ -7,15 +7,15 @@ and **OPTZ**, the React framework for Bun behind my dev lab.
 
 [Visit the lab](https://dihlabs.lol) &nbsp; / &nbsp; [Read the docs](https://dihlabs.lol/docs) &nbsp; / &nbsp; [Explore my repos](https://github.com/sxnistxr?tab=repositories)
 
-**My toolkit** &nbsp; <code>TypeScript</code> <code>React</code> <code>Bun</code> <code>Rust</code>
+**My toolkit**
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-302930?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![React](https://img.shields.io/badge/React-302930?style=flat-square&logo=react&logoColor=white)](https://react.dev/) [![Bun](https://img.shields.io/badge/Bun-302930?style=flat-square&logo=bun&logoColor=white)](https://bun.sh/) [![Rust](https://img.shields.io/badge/Rust-302930?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 
 <br>
 
 ## Compare
 
 **A better view of your image experiments.**
-
-<a href="https://compare-tool-xi.vercel.app"><img src="assets/compare-preview.png" alt="Compare live app with four sample landscapes arranged in a labeled grid and layout controls in the sidebar" width="100%"></a>
 
 Put SDXL outputs side by side, inspect their generation settings, and export
 a comparison sheet. Made for the details you miss switching between tabs.
@@ -32,8 +32,6 @@ a comparison sheet. Made for the details you miss switching between tabs.
 
 Built with **TypeScript, Next.js, React, and Tailwind CSS**.
 
-*Preview uses sample landscape illustrations.*
-
 </details>
 
 <br>
@@ -41,8 +39,6 @@ Built with **TypeScript, Next.js, React, and Tailwind CSS**.
 ## OPTZ
 
 **HTML first. Interaction where it belongs.**
-
-<a href="https://dihlabs.lol/optz"><img src="assets/optz-preview.png" alt="OPTZ live framework page: Blink. It's served. The React framework for Bun, with links to get started and read the documentation" width="100%"></a>
 
 A React framework for Bun with server-rendered pages, interactive islands,
 typed routes and APIs, caching, and middleware. It's what runs my lab.
@@ -62,6 +58,12 @@ Built with **TypeScript, React, Bun, and Rust**.
 </details>
 
 <br>
+
+## On GitHub
+
+<a href="https://github.com/sxnistxr?tab=repositories"><img src="https://github-stats-extended.vercel.app/api?username=sxnistxr&show_icons=true&hide_border=true&bg_color=080609&title_color=ff0806&icon_color=ff0806&text_color=aaa3ad&border_radius=0&hide_rank=true&card_width=495&disable_animations=true" alt="Public GitHub stats for sxnistxr: stars, commits, pull requests, issues, and contributions" width="495"></a>
+
+<a href="https://github.com/sxnistxr?tab=overview"><img src="https://streak-stats.demolab.com?user=sxnistxr&theme=dark&background=080609&hide_border=true&border_radius=0&ring=FF0806&fire=FF0806&currStreakLabel=FF0806&sideLabels=AAA3AD&dates=AAA3AD&currStreakNum=AAA3AD&sideNums=AAA3AD&disable_animations=true" alt="GitHub contributions, current streak, and longest streak for sxnistxr" width="495"></a>
 
 ---
 
