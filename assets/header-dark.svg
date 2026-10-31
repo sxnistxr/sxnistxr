@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">sxnistxr</title><desc id="desc">Tools for images. Frameworks for the web.</desc>
+<rect width="1200" height="280" rx="16" fill="#10182c"/>
+<g fill="none" stroke="#334466" stroke-width="2"><rect x="892" y="58" width="92" height="72" rx="8"/><rect x="1000" y="58" width="92" height="72" rx="8"/><rect x="892" y="146" width="92" height="72" rx="8"/><rect x="1000" y="146" width="92" height="72" rx="8"/></g>
+<path d="m912 110 17-21 15 14 12-10 12 17M1020 110l17-21 15 14 12-10 12 17" fill="none" stroke="#a6b7ff" stroke-width="3" stroke-linejoin="round"/>
+<g fill="#a6b7ff" font-family="monospace" font-size="30"><text x="909" y="193">&lt;/&gt;</text><text x="1017" y="193">{ }</text></g>
+<text x="54" y="123" fill="#f0f4ff" font-family="Verdana,Arial,sans-serif" font-size="72" font-weight="700" letter-spacing="-4">sxnistxr</text>
+<text x="58" y="180" fill="#afbeda" font-family="Verdana,Arial,sans-serif" font-size="25">Tools for images. Frameworks for the web.</text>
+<path d="M58 218h60" stroke="#a6b7ff" stroke-width="4" stroke-linecap="round"/>
+</svg>
